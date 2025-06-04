@@ -18,7 +18,7 @@ export default function Hero() {
         transition={{ delay: 0.2, duration: 0.8 }}
         className="mt-4 text-xl md:text-2xl text-gray-300 text-center max-w-xl"
       >
-        Frontend developer crafting beautiful, performant web interfaces.
+        Welcome to my home page!
       </motion.p>
 
       <motion.a

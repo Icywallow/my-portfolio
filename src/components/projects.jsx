@@ -1,22 +1,16 @@
 export default function Projects() {
   const projects = [
     {
-      title: "Portfolio Website",
+      title: "Metis - Project Planner",
       description:
-        "A sleek personal portfolio built with React and Tailwind CSS, showcasing projects, skills, and contact info.",
-      link: "#",
+        "A project planning web-app developed using Flask in Python, making use of OpenAI's ChatGPT API to generate project plans conveniently.",
+      link: "https://github.com/Icywallow/Metis",
     },
     {
-      title: "Weather App",
+      title: "Markdown to HTML parser",
       description:
-        "A real-time weather dashboard using OpenWeatherMap API, with dynamic styling and responsive layout.",
-      link: "#",
-    },
-    {
-      title: "Task Manager",
-      description:
-        "A productivity app to organize tasks, set priorities, and manage deadlines, built with React and localStorage.",
-      link: "#",
+        "A parser that converts Markdown to HTML, written in Haskell and uses a functional programming approach to parse markdown expressions.",
+      link: "https://github.com/Icywallow/markdowntoHTML",
     },
   ];
 
@@ -27,7 +21,7 @@ export default function Projects() {
           Projects
         </h2>
 
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-2">
           {projects.map((project, index) => (
             <div
               key={index}
